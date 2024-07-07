@@ -1,0 +1,8 @@
+Agent gegen Random Pipline Durchgang. Checkpiont eines Agent der für dieses Experiment gegen Random trainiert wurde
+N: 12
+batch_size: 6
+n_epochs: 2
+alpha: 0.0005
+n_games: 400
+n_actions: 49
+input_dims: [49]

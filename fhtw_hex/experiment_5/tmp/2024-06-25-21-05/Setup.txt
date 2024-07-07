@@ -1,0 +1,8 @@
+In diesem Experiment sollen zwei Agents gegeneinander trainieren, damit die Agenten besser lernen gegner zu blockieren 
+N: 6
+batch_size: 3
+n_epochs: 2
+alpha: 0.0005
+n_games: 12000
+n_actions: 49
+input_dims: [49]

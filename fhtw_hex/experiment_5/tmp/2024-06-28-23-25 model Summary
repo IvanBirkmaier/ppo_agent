@@ -1,0 +1,42 @@
+Agent Information:
+
+Actor Network Info:
+Actor Network Architecture:
+Sequential(
+  (0): Linear(in_features=49, out_features=64, bias=True)
+  (1): Tanh()
+  (2): Linear(in_features=64, out_features=64, bias=True)
+  (3): Tanh()
+  (4): Linear(in_features=64, out_features=49, bias=True)
+  (5): Softmax(dim=-1)
+)
+
+Device: cpu
+
+Parameters:
+actor.0.weight: torch.Size([64, 49])
+actor.0.bias: torch.Size([64])
+actor.2.weight: torch.Size([64, 64])
+actor.2.bias: torch.Size([64])
+actor.4.weight: torch.Size([49, 64])
+actor.4.bias: torch.Size([49])
+
+Critic Network Info:
+Critic Network Architecture:
+Sequential(
+  (0): Linear(in_features=49, out_features=64, bias=True)
+  (1): Tanh()
+  (2): Linear(in_features=64, out_features=64, bias=True)
+  (3): Tanh()
+  (4): Linear(in_features=64, out_features=1, bias=True)
+)
+
+Device: cpu
+
+Parameters:
+critic.0.weight: torch.Size([64, 49])
+critic.0.bias: torch.Size([64])
+critic.2.weight: torch.Size([64, 64])
+critic.2.bias: torch.Size([64])
+critic.4.weight: torch.Size([1, 64])
+critic.4.bias: torch.Size([1])

@@ -1,0 +1,8 @@
+Agent gegen alten Agent aus Pipline Durchgang. Checkpiont eines Agent der für dieses Experiment gegen seinen Vorgänger trainiert wurde. Vorgänger Agent zu finden unter: fhtw_hex/experiment_3/tmp
+N: 6
+batch_size: 6
+n_epochs: 2
+alpha: 0.0005
+n_games: 1000
+n_actions: 49
+input_dims: [49]
